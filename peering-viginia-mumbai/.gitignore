@@ -1,0 +1,42 @@
+# Terraform directories
+.terraform/
+
+# Terraform state
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform configs and overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Plans
+*.tfplan
+*.plan
+
+# Keep the provider lock file tracked for reproducible builds
+# .terraform.lock.hcl
+
+# Local CLI config (if present)
+.terraformrc
+terraform.rc
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keys and certs (if any were generated locally)
+*.pem
+*.key 
